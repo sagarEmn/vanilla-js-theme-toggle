@@ -1,0 +1,48 @@
+body {
+  /* Initial styles for the body element */
+  font-family: sans-serif;
+  margin: 0;
+  padding: 35px;
+  color: #333; /* Default color for text */
+  background-color: #fff; /* Default background color (light mode) */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  transition: background-color 0.5s ease-in-out, color 1s ease-in-out;
+}
+
+.dark-mode {
+  /* Styles applied when dark mode is activated */
+  background-color: #333;
+  color: #fff;
+}
+
+.container {
+  /* Styles for the content container */
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button {
+  /* Styles for the toggle button */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* #toggleButton:hover {
+    border: 1px solid;
+    border-color: red;
+} */
+
+.buttonChange {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid;
+  border-color: #646464;
+  transition: background-color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+}
