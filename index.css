@@ -4,13 +4,17 @@ body {
   margin: 0;
   padding: 35px;
   color: #333; /* Default color for text */
-  background-color: #fff; /* Default background color (light mode) */
+  background-color: #e6e6e6; /* Default background color (light mode) */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 90vh;
   transition: background-color 0.5s ease-in-out, color 1s ease-in-out;
+}
+
+h1 {
+  font-size: 2rem;
 }
 
 .dark-mode {
@@ -26,12 +30,17 @@ body {
   text-align: center;
 }
 
+#mode {
+  display: inline;
+  font-weight: bold;
+}
+
 button {
   /* Styles for the toggle button */
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
+  border-radius: 30px
 }
 
 /* #toggleButton:hover {
